@@ -58,9 +58,9 @@ console.log("------------------------------------------------------------");
 // ============================================================
 // 7–12 min — Variable keywords
 // Fill in:
-// let = used when the value might _____________________________
-// const = used when the value should __________________________
-// (We usually avoid var because it can cause ___________________)
+// let = used when the value might be changed
+// const = used when the value should not be changed
+// (We usually avoid var because it can cause is confusing with scope)
 // ============================================================
 
 // Example: let (can change)
@@ -75,17 +75,17 @@ const school = "Warren Central";
 console.log("school =", school);
 
 // IMPORTANT:
-// If you try to reassign a const, it will ______________________.
+// If you try to reassign a const, it will give you an error.
 
 // ============================================================
 // 12–18 min — Syntax basics (how JS is shaped)
 // Fill in:
-// - A statement often ends with a ____________________________.
-// - JavaScript is ____________________________ sensitive (A != a).
-// - Strings need quotes: __________________ or __________________.
-// - Parentheses ( ) are used for _______________________________.
-// - Single-line comments start with ___________________________.
-// - Multi-line comments start with ________ and end with ______.
+// - A statement often ends with a semi colon.
+// - JavaScript is case sensitive (A != a).
+// - Strings need quotes: double or single.
+// - Parentheses ( ) are used for function arguements or grouping.
+// - Single-line comments start with //.
+// - Multi-line comments start with /* and end with */.
 // ============================================================
 
 // Single-line comment example:
@@ -103,25 +103,27 @@ These lines are comments and do not run.
 // 3) Run the file
 // 4) Repeat
 
-// console.log("This quote never closes);
-// console.log('This one also never closes);
-// console.log("Missing a parenthesis";
-// console.log "console.log needs parentheses";
+/*
+console.log("This quote never closes);
+console.log('This one also never closes);
+console.log("Missing a parenthesis";
+console.log "console.log needs parentheses";
+*/
 
 // ============================================================
 // 18–26 min — Creating variables (declare + assign)
 // Rules for variable names (identifiers):
 // - Can include letters, numbers, _
-// - Cannot start with a ____________________________
-// - Cannot be a JavaScript _________________________
-// - Use camelCase: _________________________________
+// - Cannot start with a number
+// - Cannot be a JavaScript keyword
+// - Use camelCase: when naming a variable
 // ============================================================
 
 // TODO 1: Create a let variable called firstName and assign your first name as text.
 let firstName = "TODO";
 
 // TODO 2: Create a const variable called courseName and assign: "Intro to JavaScript"
-const courseName = "TODO";
+const courseName = "intro to JavaScript";
 
 // TODO 3: Print both variables using console.log
 console.log("firstName =", firstName);
@@ -129,7 +131,7 @@ console.log("courseName =", courseName);
 
 // TODO 4: Reassign firstName to a different name (let can change).
 // Then print it again.
-firstName = "TODO";
+firstName = "Bob";
 console.log("firstName =", firstName);
 
 // TODO 5: Try (but DO NOT leave it uncommented when submitting):
@@ -142,11 +144,11 @@ console.log("firstName =", firstName);
 // ============================================================
 
 // TODO: Add a comment above this line:
-// ________________________________________________
+// city variable
 let city = "Indianapolis";
 
 // TODO: Add a comment above this line:
-// ________________________________________________
+// prints city variable
 console.log("city =", city);
 
 console.log("------------------------------------------------------------");
