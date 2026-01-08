@@ -43,9 +43,9 @@ console.log("\n=== PART A: Stop Repeating Yourself (Variables) ===\n");
 // TODO: Create 3 variables: msgWelcome, msgRules, msgKind
 // TODO: Print them in order, then print them again in the same order
 
-let msgWelcome = "TODO";
-let msgRules = "TODO";
-let msgKind = "TODO";
+let msgWelcome = "Welcome!";
+let msgRules = "rules rules rules";
+let msgKind = "Very kind message";
 
 // TODO: Print twice (6 total console.log lines using ONLY the variables)
 console.log(msgWelcome);
@@ -65,11 +65,11 @@ console.log("\n=== PART B: let vs const (and Reassignment) ===\n");
 // Print it again
 // ------------------------------------------------------------
 
-let nickname = "TODO";
+let nickname = "Ace";
 console.log("nickname =", nickname);
 
 // TODO: reassign nickname
-nickname = "TODO";
+nickname = "Wizard";
 console.log("nickname =", nickname);
 
 // ------------------------------------------------------------
@@ -79,7 +79,7 @@ console.log("nickname =", nickname);
 // IMPORTANT: Do NOT reassign it.
 // ------------------------------------------------------------
 
-const schoolName = "TODO";
+const schoolName = "Warren Central";
 console.log("schoolName =", schoolName);
 
 console.log("\n=== PART C: Syntax + Comments (Fix the Broken Code) ===\n");
@@ -93,11 +93,11 @@ console.log("\n=== PART C: Syntax + Comments (Fix the Broken Code) ===\n");
 // - Then move to the next line
 // ------------------------------------------------------------
 
-// console.log("This string never closes);
-// console.log('This one also never closes);
-// console.log("Missing a parenthesis";
-// console.log "console.log needs parentheses";
-// console.log("Extra parenthesis"))
+console.log("This string never closes");
+console.log('This one also never closes');
+console.log("Missing a parenthesis");
+console.log ("console.log needs parentheses");
+console.log("Extra parenthesis");
 
 // ------------------------------------------------------------
 // 5) Comment Check
@@ -105,9 +105,11 @@ console.log("\n=== PART C: Syntax + Comments (Fix the Broken Code) ===\n");
 // ------------------------------------------------------------
 
 // TODO comment: ________________________________________________
+//Sets the city variable to indianapolis
 let city = "Indianapolis";
 
 // TODO comment: ________________________________________________
+//prints the city variable
 console.log("city =", city);
 
 console.log("\n=== PART D: Naming Rules + Clean Output ===\n");
@@ -124,9 +126,9 @@ console.log("\n=== PART D: Naming Rules + Clean Output ===\n");
 // classPeriod = __
 // ------------------------------------------------------------
 
-let firstName = "TODO";
-let lastName = "TODO";
-let classPeriod = "TODO";
+let firstName = "Zavian";
+let lastName = "Pedigo";
+let classPeriod = "2nd";
 
 console.log("firstName =", firstName);
 console.log("lastName =", lastName);
@@ -138,11 +140,11 @@ console.log("classPeriod =", classPeriod);
 // DO NOT create the variables. Just answer in comments.
 // ------------------------------------------------------------
 
-// 7a) let 2cool = "nope";        // YES / NO: ________
-// 7b) let my_name = "ok";        // YES / NO: ________
-// 7c) let class = "reserved";    // YES / NO: ________
-// 7d) let firstName = "ok";      // YES / NO: ________
-// 7e) let $total = 10;           // YES / NO: ________
+// 7a) let 2cool = "nope";        // YES / NO: ____no____
+// 7b) let my_name = "ok";        // YES / NO: _____yes___
+// 7c) let class = "reserved";    // YES / NO: ___no_____
+// 7d) let firstName = "ok";      // YES / NO: ___yes_____
+// 7e) let $total = 10;           // YES / NO: ____yes____
 
 console.log("\n=== PART E: Final Team Challenge (All Variables, No New Tools) ===\n");
 
@@ -167,11 +169,11 @@ console.log("\n=== PART E: Final Team Challenge (All Variables, No New Tools) ==
 // Status: DONE
 // ------------------------------------------------------------
 
-const courseTitle = "TODO";
-let studentOne = "TODO";
-let studentTwo = "TODO";
-const assignmentName = "TODO";
-let status = "TODO";
+const courseTitle = "Intro to Javascript";
+let studentOne = "Zavian";
+let studentTwo = "Jacob";
+const assignmentName = "Variables Boot Camp";
+let status = "IN PROGRESS";
 
 console.log("Course:", courseTitle);
 console.log("Assignment:", assignmentName);
@@ -179,7 +181,7 @@ console.log("Pair:", studentOne, "&", studentTwo);
 console.log("Status:", status);
 
 // TODO: reassign status to "DONE"
-status = "TODO";
+status = "DONE";
 console.log("Status:", status);
 
 // ============================
